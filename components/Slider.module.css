@@ -1,0 +1,87 @@
+  .container {
+      position: relative;
+      width: 320px;
+      margin: 30px auto 0 auto;
+      perspective: 1000px;
+  }
+
+  .carousel {
+      position: absolute;
+      width: 60%;
+      height: 60%;
+      transform-style: preserve-3d;
+      animation: rotate360 60s infinite forwards linear;
+  }
+
+  .carousel__face {
+      position: absolute;
+      width: 250px;
+      height: 160px;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      background-size: cover;
+      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.1);
+      display: flex;
+  }
+
+  .span {
+      margin: auto;
+      font-size: 2rem;
+  }
+
+
+  .carousel__face:nth-child(1) {
+      background-image: url("/acabado1.jpg");
+      transform: rotateY(0deg) translateZ(360px);
+  }
+
+  .carousel__face:nth-child(2) {
+     
+      transform: rotateY(40deg) translateZ(360px);
+  }
+
+  .carousel__face:nth-child(3) {
+      background-image: url("/acabado3.jpg");
+      transform: rotateY(80deg) translateZ(360px);
+  }
+
+  .carousel__face:nth-child(4) {
+      background-image: url("/acabado4.jpg");
+      transform: rotateY(120deg) translateZ(360px);
+  }
+
+  .carousel__face:nth-child(5) {
+      transform: rotateY(160deg) translateZ(360px);
+  }
+
+  .carousel__face:nth-child(6) {
+      background-image: url("/acabado6.jpeg");
+      transform: rotateY(200deg) translateZ(360px);
+  }
+
+  .carousel__face:nth-child(7) {
+      background-image: url("/acabado7.jpeg");
+      transform: rotateY(240deg) translateZ(360px);
+  }
+
+  .carousel__face:nth-child(8) {
+      transform: rotateY(280deg) translateZ(360px);
+  }
+
+  .carousel__face:nth-child(9) {
+      background-image: url("/acabado9.jpeg");
+      transform: rotateY(320deg) translateZ(360px);
+  }
+
+
+
+  @keyframes rotate360 {
+      from {
+          transform: rotateY(0deg);
+      }
+
+      to {
+          transform: rotateY(-360deg);
+      }
+  }
