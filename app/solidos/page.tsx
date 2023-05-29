@@ -6,12 +6,7 @@ const arraySolid = {
       "grade": "Sólidos Rígidos",
       "description": "Los sólidos rígidos, también conocidos como revestimientos pesados, son materiales de construcción que poseen rigidez inherente. " +
         "Estos elementos pueden ser prefabricados o producidos in situ, y se caracterizan por tener una forma, volumen y dimensiones definidas, sin necesidad " +
-        "de aplicarse en el lugar de obra para mostrar su rigidez completa. Provienen de la transformación de materiales pétreos naturales y artificiales, y maderas.",
-        "naturaleza": [
-          "Pétreos Naturales",
-          "Pétreos Artificiales",
-          "Maderables"
-        ]
+        "de aplicarse en el lugar de obra para mostrar su rigidez completa. Provienen de la transformación de materiales pétreos naturales y artificiales, y maderas."
     },
     {
       "grade": "Sólidos Semirrígidos",
