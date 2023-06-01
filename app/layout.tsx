@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,10 +20,12 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/matrixLogoResize.png" />
         <link rel='stylesheet' href="https://bootswatch.com/5/litera/bootstrap.min.css"></link>
+        <script src="https://kit.fontawesome.com/33e751bc34.js" crossOrigin="anonymous"></script>
       </head>
       <body className={inter.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
