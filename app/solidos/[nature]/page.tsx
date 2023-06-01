@@ -38,7 +38,7 @@ export default async function nature({ params }: any) {
   )
 }
 
-export async function getStaticProps(id: string) {
+export async function getStaticProps(id: any) {
   const toNumber = Number(id)
   const data = (toNumber == 1) ? await getDataNature() : await getDataFinish(toNumber + 2)
 

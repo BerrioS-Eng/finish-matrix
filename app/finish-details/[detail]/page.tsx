@@ -91,7 +91,7 @@ export default async function FinishDetails({ params }: any) {
     )
 }
 
-export async function getStaticProps(id: string) {
+export async function getStaticProps(id: any) {
     const data = await getDataFinishDetail(Number(id))
     return {
         props: {
