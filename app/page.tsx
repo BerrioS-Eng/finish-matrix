@@ -1,4 +1,4 @@
-import { Slider } from "@/components/Slider"
+import { Slider } from "@/components/slider/Slider"
 import Style from "./Page.module.css"
 import Link from "next/link"
 
@@ -6,15 +6,15 @@ export default function Home() {
   return (
     <>
 
-      <div className="container">
+      <div className="">
 
-        <div className="row">
+        <div className="">
 
-          <div className="col text-center">
+          <div className="">
 
-            <div className="mx-auto pt-4">
-              <h3 className="text-primary">Matriz Genérica de Acabados</h3>
-              <p className="w-75 mx-auto fs-6 text-dark">
+            <div className="">
+              <h3 className="">Matriz Genérica de Acabados</h3>
+              <p className="">
                 Los materiales de construcción provienen de diversos orígenes, vistos desde la naturaleza o esencia misma de su estructura.<br />
                 Comprender que la manera de abordarlos resulta muy amplia es conveniente para el entendimiento proyectual, debido a esto se construye
                 un sistema de clasificación, que permite analizar el material en cuestión desde la naturaleza física de su composición hasta sus índices de sostenibilidad bioclimática.
@@ -27,7 +27,7 @@ export default function Home() {
 
         <Slider />
 
-        <div className={Style.section}>
+        <div >
 
           <div className="row align-items-center">
             <div className="col-lg-7 py-5 ps-4">

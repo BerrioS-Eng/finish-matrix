@@ -91,7 +91,7 @@ export default async function FinishDetails({ params }: any) {
     )
 }
 
-export async function getStaticProps(id: any) {
+export async function getStaticProps(id:string) {
     const data = await getDataFinishDetail(Number(id))
     return {
         props: {
@@ -99,5 +99,13 @@ export async function getStaticProps(id: any) {
         }
     };
 };
+
+/*
+export const getStaticProps: GetStaticProps = async (context) => {
+    // This is where the error occurs
+    const { id } = context.params // Property 'slug' does not exist on type 'ParsedUrlQuery | undefined'
+    const props = await getDataFinishDetail(Number(id))
+    return { props }
+}*/
 
 

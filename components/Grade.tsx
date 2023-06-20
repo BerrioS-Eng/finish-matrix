@@ -2,13 +2,13 @@
 import Image from "next/image"
 import Link from "next/link"
 
-function Grade({ grades }) {
+function Grade({ grades }:any) {
 
     return (
         <>
             <div className="container pt-2">
 
-                {grades.map((grade) => (
+                {grades.map((grade:any) => (
                     
                     <div className="row">
                         <div className="card mx-auto mb-4 w-75">

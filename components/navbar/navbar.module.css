@@ -1,0 +1,30 @@
+.container {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.login{
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    background-color: #f9b17a;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}

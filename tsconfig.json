@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Grade.jsx", "app/solidos/[rigidos]", "app/solidos/[nature]", "app/solidos/[nature]/[finish]"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Grade.tsx", "app/solidos/[rigidos]", "app/solidos/[nature]", "app/solidos/[nature]/[finish]"],
   "exclude": ["node_modules"]
 }
