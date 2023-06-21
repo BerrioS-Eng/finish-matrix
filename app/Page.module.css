@@ -1,4 +1,16 @@
-.section{
-    margin-top: 400px;
-    margin-bottom: 50px;
+.section1{
+    display: flex;
+
 }
+
+.home {
+    width: 40%;
+    margin: 40px 0px 0px 60px;
+}
+
+.home h3 {
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
