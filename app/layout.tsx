@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/matrixLogo.png" />
+        <link rel="icon" href="/logo.png" />
         <script src="https://kit.fontawesome.com/33e751bc34.js" crossOrigin="anonymous"></script>
       </head>
       <body className={open_sans.className}>
