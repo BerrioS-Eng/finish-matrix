@@ -17,7 +17,7 @@
 }
 
 .paragraph {
-    margin: 10px;
+    margin: 10px 0;
     font-size: 18px;
 }
 
@@ -31,57 +31,42 @@
 }
 
 .section2 {
+    display: flex;
     margin-bottom: 50px;
 }
 
-.section2 h3{
+.section2 .description {
+    width: 55%;
     margin: auto;
-    width: 50%;
+}
+
+.section2 h3{
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-size: 30px;
     color: #F9B17A;
 }
 
-.section2 .paragraph{
-    margin: auto;
-    width: 80%;
-    text-align: justify;
-}
-
-.section3 {
+.buttons {
     display: flex;
-    margin: auto;
     width: 80%;
+    margin: 35px auto;
+    margin-bottom: 50px;
     justify-content: space-evenly;
     text-align: center;
     font-weight: bold;
     font-size: 17px;
-    color: whitesmoke;
-    margin-bottom: 50px;
+    color: #DFE0DF;
 }
 
-.section3 i {
-    margin-bottom: 8px;
+.btn{
+    padding: 5px 10px;
+    border: 2px solid #F9B17A;
+    border-radius: 20px;
 }
 
-.iconSolid {
-    padding: 10px 15px;
-    border-radius: 7px;
-    background-image: url("/solid.jpg");
-}
-
-.iconFluid {
-    padding: 10px 19px;
-    border-radius: 7px;
-    background-image: url("/fluid.jpg");
-}
-
-.iconSolid:hover {
-    color: #F9B17A;
-}
-
-.iconFluid:hover {
-    color: #F9B17A;
+.btn:hover {
+    color: black;
+    background-color: #F9B17A;
 }

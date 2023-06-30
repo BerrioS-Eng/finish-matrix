@@ -26,35 +26,29 @@ export default function Home() {
         </div>
         <section className={styles.section2}>
           <div>
+            <Image src="/categories.png" alt="categoriesFinish" width={450} height={550}></Image>
+          </div>
+          <div className={styles.description}>
             <h3>Sistema de clasificación y categorización de acabados arquitectonicos</h3>
             <p className={styles.paragraph}>
               Se muestra a partir de fichas de identidad, desglosando información de los materiales como el aspecto
               físico y compositivo, también, el comportamiento frente a diferentes criterios de sostenibilidad
               bioclimática.
-              <br />
+            </p>
+            <p className={styles.paragraph}>
               Se establece en primera instancia dos grupos: sólidos y fluidos; luego se subdividen por
-              su naturaleza, de esta manera se obtiene un estudio amplio y adecuado en los aspectos claves
+              su naturaleza, de esta manera se obtiene un amplio y adecuado estudio de los aspectos claves
               para la escogencia de los materiales, consiguiendo un sistema aplicable a lo largo del tiempo.
             </p>
+            <div className={styles.buttons}>
+              <Link className={styles.btn} href="">                
+                  Ver Sólidos
+              </Link>
+              <Link className={styles.btn} href="">
+                  Ver Fluidos
+              </Link>
+            </div>
           </div>
-        </section>
-        <section className={styles.section3}>
-          <Link href="">
-            <div className={styles.iconSolid}>
-              <div>
-                <i className="fa fa-duotone fa-shop fa-4x"></i>
-              </div>
-              Sólidos
-            </div>
-          </Link>
-          <Link href="">
-            <div className={styles.iconFluid}>
-              <div>
-                <i className="fa fa-duotone fa-water fa-4x"></i>
-              </div>
-              Fluidos
-            </div>
-          </Link>
         </section>
 
       </div>

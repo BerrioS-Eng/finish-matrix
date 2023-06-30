@@ -1,12 +1,28 @@
-export default async function solidos() {
-  
+import styles from "./SolidPage.module.css"
+
+async function getSolidGrades(){
+  const solidGrades = await fetch(
+    `http://localhost:8080/api/grade/find-all-by-namegrade/solidos`
+  )
+
+  if(!solidGrades.ok){
+    throw new Error('Failed to fetch data')
+  }
+
+  return solidGrades.json()
+}
+
+export default async function Solidos(){
+  //const res = await getSolidGrades()
+  //Organizar los recursos
+  //Preparar los estilos de la página
+  //Desarrollar el componente para listar los elementos
   return (
-    <div className="container">
-      <nav aria-label="breadcrumb">
-        <ol className="breadcrumb">
-          <li className="breadcrumb-item active fw-bolder text-black" aria-current="page">Sólidos Conformados</li>
-        </ol>
-      </nav>
+    <div>
+      <img src="" alt="bgSolid" className={styles.bg}/>
+      <div>
+        
+      </div>
     </div>
   )
 }
