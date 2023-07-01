@@ -9,11 +9,11 @@ export default function Home() {
         <div className={styles.section1}>
           <section className={styles.home}>
             <h3 className={styles.p1}>Matriz<br />Genérica de<br />Acabados</h3>
-            <p className={styles.paragraph}>
+            <p>
               Los materiales de construcción provienen de diversos orígenes,
               vistos desde la naturaleza o esencia misma de su estructura.
             </p>
-            <p className={styles.paragraph}>
+            <p>
               Comprender que la manera de abordarlos resulta muy amplia es conveniente para el entendimiento
               proyectual, debido a esto se construye un sistema de clasificación, que permite analizar el
               material en cuestión desde la naturaleza física de su composición hasta sus índices de
@@ -30,12 +30,12 @@ export default function Home() {
           </div>
           <div className={styles.description}>
             <h3>Sistema de clasificación y categorización de acabados arquitectonicos</h3>
-            <p className={styles.paragraph}>
+            <p>
               Se muestra a partir de fichas de identidad, desglosando información de los materiales como el aspecto
               físico y compositivo, también, el comportamiento frente a diferentes criterios de sostenibilidad
               bioclimática.
             </p>
-            <p className={styles.paragraph}>
+            <p>
               Se establece en primera instancia dos grupos: sólidos y fluidos; luego se subdividen por
               su naturaleza, de esta manera se obtiene un amplio y adecuado estudio de los aspectos claves
               para la escogencia de los materiales, consiguiendo un sistema aplicable a lo largo del tiempo.

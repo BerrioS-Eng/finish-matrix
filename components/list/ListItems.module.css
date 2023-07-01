@@ -1,0 +1,43 @@
+.contentComponent {
+    background-color: #E4E2E1;
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+.splitter {
+    width: 80%;
+    margin: 15px auto;
+    border: #53524E solid 1px;
+    border-radius: 5px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 35px;
+    margin: 0 40px;
+    padding: 10px 0;
+
+}
+
+.elementInfo{
+    width: 70%;
+}
+
+.elementTitle {
+    width: 90%;
+    color: #282924;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.elementDescrip {
+    color: #53524E;
+    font-size: 16px;
+    padding-right: 30px;
+}
