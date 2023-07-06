@@ -5,9 +5,6 @@ import styles from "@/components/solidFluidStyle/SolidFluid.module.css"
 
 export default async function Solidos(){
   const res = await getDataGrades("solidos")
-  //Organizar los recursos
-  //Preparar los estilos de la página
-  //Desarrollar el componente para listar los elementos
   return (
     <>
       <div className={styles.content}>
